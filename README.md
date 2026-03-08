@@ -15,15 +15,15 @@ Tech Stack:
 - Pandas
 
 
- CRM Screenshots
+ ## CRM Screenshots
 
- Add Lead Page
+### Add Lead Page
 ![Add Lead](crm-add-lead.png)
 
-Lead Table
+### Lead Table
 ![Leads](crm-leads.png)
 
- Dashboard
+### Dashboard
 ![Dashboard](crm-dashboard.png)
 
 ## Run the Application

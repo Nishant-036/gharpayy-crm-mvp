@@ -39,3 +39,33 @@ streamlit run app.py
 Open browser
 
 http://localhost:8501
+
+## System Architecture
+
+Lead Sources (Forms / WhatsApp / Website)
+        ↓
+Lead Capture System
+        ↓
+SQLite Database
+        ↓
+Streamlit CRM Interface
+        ↓
+Dashboard Analytics
+
+## Database Design
+
+Leads Table:
+- id
+- name
+- phone
+- source
+- agent
+- status
+- timestamp
+
+## Scalability
+
+For production deployment:
+- SQLite → PostgreSQL
+- Streamlit → React frontend
+- Local hosting → AWS / cloud infrastructure
